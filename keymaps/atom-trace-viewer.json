@@ -1,0 +1,6 @@
+{
+   "atom-workspace": {
+      "cmd-alt-x": "atom-trace-viewer:devtools",
+      "cmd-alt-v": "atom-trace-viewer:showHide"
+   }
+}

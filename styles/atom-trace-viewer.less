@@ -1,0 +1,39 @@
+// The ui-variables file is provided by base themes provided by Atom.
+//
+// See https://github.com/atom/atom-dark-ui/blob/master/styles/ui-variables.less
+// for a full listing of what's available.
+@import "ui-variables";
+
+#atomtraceviewer-view{
+   box-sizing:border-box;
+   z-index:1;
+}
+
+.atomtraceviewer-webview-container{
+   box-sizing:border-box;
+   padding:0px 6px;
+   position:absolute;
+   top:0px;
+   left:0px;
+   width:100%;
+   height:100%;
+   padding:0px 12px 0px 12px;
+   color:white;
+   #atomtraceviewer-webview{
+      left:0px; top:40px;
+      box-sizing:border-box;
+      width:100%;
+      height:100%;
+      border-radius:2px;
+      background:@background-color-selected;
+      display:flex;
+      transition:all 0.25s;
+   }
+
+   &.showBackground{
+      #atomtraceviewer-webview{
+         background:#FFF;
+         color:#000;
+      }
+   }
+}

@@ -1,0 +1,12 @@
+[
+   {
+      "type": "div",
+      "attributes": { "class": "atomtraceviewer-webview-container" },
+      "innerHTML": [
+         {
+            "type": "webview",
+            "attributes": { "id": "atomtraceviewer-webview", "class": "native-key-bindings", "src": "" }
+         }
+      ]
+   }
+]

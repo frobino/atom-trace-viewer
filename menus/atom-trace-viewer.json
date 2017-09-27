@@ -1,0 +1,22 @@
+{
+   "context-menu":{
+      "atom-text-editor":[
+         { "label": "Toggle Atom-Trace-Viewer", "command": "atom-trace-viewer:showHide" }
+      ],
+      ".tree-view .full-menu":[
+         {"type": "separator"},
+         { "label": "Atom Trace Viewer", "command":  "atom-trace-viewer:preview" }
+      ]
+  },
+  "menu":[
+     { "label": "Packages", "submenu":
+        [
+           {
+               "label": "Atom Trace Viewer", "submenu": [
+                  { "label": "Toggle", "command": "atom-trace-viewer:showHide" }
+               ]
+            }
+         ]
+      }
+   ]
+}

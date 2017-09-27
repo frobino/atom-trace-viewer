@@ -1,0 +1,50 @@
+{
+  "bugs": {
+    "url": "https://github.com/frobino/atom-trace-viewer/issues"
+  },
+  "dependencies": {},
+  "description": "Atom-Trace-Viewer is the plugin to visualize traces within Atom",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/frobino/atom-trace-viewer#readme",
+  "keywords": [
+    "trace",
+    "preview",
+    "trace view"
+  ],
+  "license": "MIT",
+  "main": "./lib/atom-trace-viewer",
+  "name": "atom-trace-viewer",
+  "optionalDependencies": {},
+  "readme": "Atom-Trace-Viewer is the plugin to visualize traces within Atom",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frobino/atom-trace-viewer.git"
+  },
+  "version": "0.1.0",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [],
+    "extensions": {
+      ".js": [
+        "lib\\atom-trace-viewer-view.js",
+        "lib\\atom-trace-viewer.js"
+      ],
+      ".json": [
+        "package.json"
+      ]
+    },
+    "folders": []
+  },
+  "configSchema": {
+    "viewShowBackground": {
+      "title": "Show Background",
+      "description": "The default background is dark grey. Enable this for white",
+      "type": "boolean",
+      "default": false
+    }
+  }
+}
