@@ -1,0 +1,13 @@
+[
+   {
+      "type": "atom-panel",
+      "attributes": { "id" : "atomtraceviewer-navbar", "class": "padded native-key-bindings"},
+      "innerHTML": [
+         {
+            "type": "input",
+            "attributes": { "type": "text", "id": "atomtraceviewer-addressbar", "class":"input-text native-key-bindings", "placeholder": "File, Url" }
+         }
+      ]
+   }
+
+]
