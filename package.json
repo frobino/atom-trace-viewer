@@ -24,7 +24,7 @@
     "type": "git",
     "url": "git+https://github.com/frobino/atom-trace-viewer.git"
   },
-  "version": "0.0.0",
+  "version": "0.1.0",
   "_atomModuleCache": {
     "version": 1,
     "dependencies": [],
