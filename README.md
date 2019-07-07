@@ -27,6 +27,11 @@ Copy in the address bar the address address to the remote device uploading trace
 
 Trace examples are provided in the [test_data](https://github.com/frobino/atom-trace-viewer/raw/master/lib/tracing/test_data/) folder.
 
+To open one of the trace examples:
+* install the Atom Trace Viewer plugin;
+* from the sidebar, browse into the folder containing the trace examples;
+* right click on the trace example file, and select "Atom Trace Viewer"
+
 ## Features/Bugs/Help
 
 [Click Here: Will fix/add/help as soon as possible! Thank you! :) ](https://github.com/frobino/atom-trace-viewer/issues)
